@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practice_project/screens/auth/auth.dart';
+import 'package:practice_project/screens/product.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AuthScreen(),
+      home: Product(),
     );
   }
 }
